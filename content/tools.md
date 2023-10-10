@@ -16,11 +16,11 @@ The following commercial and free modeling and simulation environments for Model
 
 * By [**Altair**](http://www.altair.com/):
 
-* [**_solidThinking Activate_**](http://www.solidthinking.com/activate_land.html) is a multi-disciplinary system modeling and simulation solution. Its intuitive block diagram environment combined with a modern user interface allows to rapidly build diagrams. Activate comes with a comprehensive library of blocks along with a powerful hybrid simulator that can not only handle continuous and discrete-time models but also allows to mix both signal-based as well as physical components (Modelica) in the same model. It's also compliant with Functional Mock-up Interface (FMI) for both import and export – in model exchange as well as co-simulation modes. The Modelica support in solidThinking Activate is powered by [Maplesoft™](http://www.maplesoft.com/) and includes the Maplesoft™ Modelica engine and Modelica Standard Library for the modeling of physical components.
+   * [**_solidThinking Activate_**](http://www.solidthinking.com/activate_land.html) is a multi-disciplinary system modeling and simulation solution. Its intuitive block diagram environment combined with a modern user interface allows to rapidly build diagrams. Activate comes with a comprehensive library of blocks along with a powerful hybrid simulator that can not only handle continuous and discrete-time models but also allows to mix both signal-based as well as physical components (Modelica) in the same model. It's also compliant with Functional Mock-up Interface (FMI) for both import and export – in model exchange as well as co-simulation modes. The Modelica support in solidThinking Activate is powered by [Maplesoft™](http://www.maplesoft.com/) and includes the Maplesoft™ Modelica engine and Modelica Standard Library for the modeling of physical components.
 
 * By [**ANSYS**](http://www.ansys.com/):
 
-* [**_Simplorer_**](http://www.ansys.com/products/systems/ansys-simplorer) is a powerful platform for simulating and analyzing physics-based models of complex systems. With flexible modeling capabilities and tight integrations with ANSYS solutions for 3-D physics simulation and embedded software design, Simplorer provides broad support for assembling system-level physical models and robust simulation for verifying and optimizing system performance. Simplorer supports multiple standard modeling languages and exchange formats, including Modelica, VHDL-AMS, and the Functional Mock-up Interface, and is compatible with Modelica libraries offered by [Modelon](http://www.modelon.com/).
+   * [**_Simplorer_**](http://www.ansys.com/products/systems/ansys-simplorer) is a powerful platform for simulating and analyzing physics-based models of complex systems. With flexible modeling capabilities and tight integrations with ANSYS solutions for 3-D physics simulation and embedded software design, Simplorer provides broad support for assembling system-level physical models and robust simulation for verifying and optimizing system performance. Simplorer supports multiple standard modeling languages and exchange formats, including Modelica, VHDL-AMS, and the Functional Mock-up Interface, and is compatible with Modelica libraries offered by [Modelon](http://www.modelon.com/).
 
 * By [**Dassault Systèmes**](http://www.3ds.com):
     * **[_Dymola_](http://www.dymola.com)** has a Modelica translator which is able to perform all necessary symbolic transformations for large systems (> 100 000 equations) as well as for real time applications. A graphical editor for model editing and browsing, as well as a simulation environment are included. Convenient interfaces to [MATLAB](http://www.MathWorks.com) and the popular block diagram simulator [Simulink](http://www.mathworks.com/products/simulink/) exist. For example, a Modelica model can be transformed into a SIMULINK S-function C mex-file which can be simulated in SIMULINK as an input/output block. [A demo version of Dymola can be downloaded here.](https://discover.3ds.com/free-trial-version-of-dymola-for-windows)
@@ -85,44 +85,44 @@ Here comes a list of **free** tools that are useful in combination with some of 
 
 ## Modelica tools for developers
 
-Modelica Compliance Suite
+### Modelica Compliance Suite
 
 A semantics compliance suite for the Modelica language
 
 * Project home: [https://github.com/modelica/Modelica-Compliance](https://github.com/modelica/Modelica-Compliance) (can also be used as Subversion or Git checkout address).
 * [Download latest version as zip file](https://github.com/modelica/Modelica-Compliance/archive/master.zip)
 
-CSV Result Compare tool
+### CSV Result Compare tool
 
 The CSV Result Compare can be used to compare curves from one csv files with curves from other csv files using a special algorithm.
 
 * Project home: [https://github.com/modelica-tools/csv-compare](https://github.com/modelica-tools/csv-compare) (can also be used as Subversion or Git checkout address).
 * [Download latest version as zip file](https://github.com/modelica-tools/csv-compare/archive/master.zip)
 
-MapleSim Standalone Modelica Parser
+### MapleSim Standalone Modelica Parser
 
 May be freely used for library syntax validation, and for non-commercial educational purposes.
 
 * Online Version:[http://www.maplesoft.com/products/maplesim/modelicachecker](http://www.maplesoft.com/products/maplesim/modelicachecker)
 * Git address: [https://github.com/modelica-tools/ModelicaSyntaxChecker](https://github.com/modelica-tools/ModelicaSyntaxChecker)
 
-Modelica Testsuite
+### Modelica Testsuite
 
 Modelica models to test various aspects of the Modelica language can be found in the development repository:
 
 * Git address: [https://github.com/modelica/ModelicaStandardLibrary](https://github.com/modelica/ModelicaStandardLibrary) 
 * Browse the code: [https://github.com/modelica/ModelicaStandardLibrary/tree/master/ModelicaTest](https://github.com/modelica/ModelicaStandardLibrary/tree/master/ModelicaTest)
 
-For historical reasons we also provide the older version 1.4 from December 2000 here: [testsuite.zip](/tools/testsuite.zip)
+For historical reasons, we also provide the older version 1.4 from December 2000 here: [testsuite.zip](/tools/testsuite.zip)
 
-Trimming of trailing white spaces (and other code clean up)
+### Trimming of trailing white spaces (and other code clean-up)
 
-This script will recursively remove all trailing white spaces in all text files in a given directory. Binary files and files residing in version control specific directories are skipped. As an addition one can also let it clean out obsolete or empty/superfluous Modelica annotations from Modelica files.
+This script will recursively remove all trailing white spaces in all text files in a given directory. Binary files and files residing in version control-specific directories are skipped. As an addition, one can also let it clean out obsolete or empty/superfluous Modelica annotations from Modelica files.
 
-* Project home on GitHub: [https://github.com/dietmarw/trimtrailingwhitespaces](https://github.com/dietmarw/trimtrailingwhitespaces)
-* [Downloadable releases](https://github.com/dietmarw/trimtrailingwhitespaces/releases)
+* Project home on GitHub: <https://github.com/simulatino/trimtrailingwhitespaces>
+* [Downloadable releases](https://github.com/simulatino/trimtrailingwhitespaces/releases)
 
-PMD
+### PMD
 
 An extensible multilanguage static code analyzer with support for Modelica language.
 
